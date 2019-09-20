@@ -10,7 +10,7 @@ mvn spring-boot:run
 
 ###### To run it with docker:
 ```
-docker build -t rickbala/crud-example . && docker run -p 8080:8080 rickbala/crud-example
+sudo docker build -t rickbala/crud-example . && sudo docker run -p 8080:8080 rickbala/crud-example
 ```
 ###### To run it with pure Java:
 ```
